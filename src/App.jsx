@@ -111,10 +111,7 @@ function App() {
 
                 <div className="top-profile">
 
-                    <img
-                        src="/profile.png"
-                        alt="Profile"
-                    />
+                    <img src={`${import.meta.env.BASE_URL}profile.png`} alt="Profile" />
 
                     <span>KEERTHI ADITHYA URK24CS1135</span>
 
