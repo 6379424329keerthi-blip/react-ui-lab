@@ -21,10 +21,7 @@ function Profile() {
 
             <div className="profile-card">
 
-                <img
-                    src="/profile.png"
-                    alt="Profile"
-                />
+                <img src={`${import.meta.env.BASE_URL}profile.png`} alt="Profile" />
 
 
                 {editing ? (
